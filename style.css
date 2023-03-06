@@ -1043,12 +1043,12 @@ blockquote cite:before {
 
 .readon.learn-more {
     padding: 14px 40px 14px 40px;
-    background-image: linear-gradient(250deg, #4e95ed 19%, #03228f 100%);
+    background-image: linear-gradient(250deg, #eeb609 19%, #d19931 100%);
     border-radius: 30px 30px 30px 30px;
 }
 
 .readon.learn-more:hover {
-    background-image: linear-gradient(180deg, #03228f 19%, #4e95ed 100%);
+    background-image: linear-gradient(180deg, #d19931 19%, #eeb609 100%);
     color: #ffffff;
 }
 
@@ -2678,7 +2678,7 @@ blockquote cite:before {
 
 .full-width-header .rs-header .menu-area {
     transition: all 0.3s ease;
-    background-image: linear-gradient(90deg, #00D8FF 10%, #FFBF00 100%);
+    background-image: linear-gradient(90deg, #eeb609 10%, #e4a633 100%);
 }
 
 .full-width-header .rs-header .menu-area .logo-area a img {
@@ -12507,7 +12507,7 @@ body .search-modal .close:hover {
 }
 
 #scrollUp i {
-    background-image: linear-gradient(90deg, #03228f 0%, #0e73e4 100%);
+    background-image: linear-gradient(90deg, #eeb609 0%, #d19931 100%);
     border-radius: 50%;
     height: 40px;
     font-size: 24px;
