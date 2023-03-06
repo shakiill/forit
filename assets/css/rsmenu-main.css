@@ -1,8 +1,4 @@
 /*
-Author: RS Theme
-Author URI: http://rstheme.com
-Description: RS Menu is a fully responsive, easy-to-use, highly customized and creative Mega Menu
-Version: 1.0.0
 */
 /*-----------------------------------------------------------------------------------*/
 /*	GLOBAL CSS THAT ARE APPLIED FOR ALL SCREEN SIZES
@@ -114,7 +110,7 @@ Version: 1.0.0
 }
 .rs-header .menu-area .logo-area img{
     max-width: 100%;
-    max-height: 25px;
+    /*max-height: 25px;*/
     transition: 0.4s;
     -webkit-transition: 0.4s;
 }
