@@ -739,7 +739,7 @@ button:focus {
 }
 
 .pagination-part .active a {
-    color: #106eea;
+    color: #ffffff;
 }
 
 .gridFilter button {
@@ -2678,7 +2678,7 @@ blockquote cite:before {
 
 .full-width-header .rs-header .menu-area {
     transition: all 0.3s ease;
-    background-image: linear-gradient(90deg, #03228f 10%, #0e73e4 100%);
+    background-image: linear-gradient(90deg, #00D8FF 10%, #FFBF00 100%);
 }
 
 .full-width-header .rs-header .menu-area .logo-area a img {
@@ -2716,7 +2716,7 @@ blockquote cite:before {
 }
 
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a:hover {
-    color: #bbb;
+    color: #FFBF00;
 }
 
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li.menu-item-has-children > a {
@@ -2743,7 +2743,7 @@ blockquote cite:before {
 }
 
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li.current-menu-item > a {
-    color: #bbb;
+    color: #564e4e;
 }
 
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li:last-child {
@@ -2897,11 +2897,11 @@ blockquote cite:before {
 }
 
 .full-width-header .rs-header .menu-area.sticky .main-menu .rs-menu ul.nav-menu > li > a:hover {
-    color: #106eea;
+    color: #bbb;
 }
 
 .full-width-header .rs-header .menu-area.sticky .main-menu .rs-menu ul.nav-menu > li.current-menu-item > a {
-    color: #106eea;
+    color: #FFBF00;
 }
 
 .full-width-header .rs-header .menu-area.sticky .main-menu .rs-menu ul.mega-menu {
