@@ -794,19 +794,19 @@
         left: -40px;
         top: -56px;
     }
-    .dance {
+    /* .dance {
         -webkit-animation: unset;
     }
     .dance2 {
         -webkit-animation: unset;
-    }
+    } */
     .rs-banner.main-home {
         min-height: 92vh;
         background-repeat: no-repeat;
         background-size: cover;
     }
     .rs-banner.main-home .content-wrap {
-         padding-top: unset;
+        padding-top: unset;
     }
     .rs-banner.main-home .content-wrap .it-title {
         font-size: 47px;
@@ -820,7 +820,7 @@
         top: -80px;
     }
     .rs-process .rs-addon-number .number-text .number-txt {
-       padding-right: 0;
+        padding-right: 0;
     }
     .rs-services.main-home.style1 {
         margin-top: 10px;

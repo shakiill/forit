@@ -1973,7 +1973,7 @@ blockquote cite:before {
     border: 0;
     height: 4px;
     width: 50px;
-    background-color: #03228F;
+    background-color: #fcb229;
     z-index: 1;
     margin-left: 0;
     left: 24px;
@@ -1987,7 +1987,7 @@ blockquote cite:before {
     top: 12px;
     height: 4px;
     width: 12px;
-    background-color: #03228F;
+    background-color: #fcb229;
 }
 
 .sec-title .sub-text.new {
@@ -8487,9 +8487,9 @@ body .search-modal .close:hover {
     height: 42px;
     line-height: 42px;
     border-radius: 50%;
-    background: #ffffff;
+    background: #fcb229;
     text-align: center;
-    color: #101010;
+    color: #fff;
     transition: all 0.5s;
     transition-delay: 0.70s;
     opacity: 0;
@@ -12632,7 +12632,7 @@ body .search-modal .close:hover {
 }
 
 .dance3 {
-    -webkit-animation: dance3 8s alternate infinite;
+    -webkit-animation: dance3 9s alternate infinite;
 }
 
 @keyframes dance3 {
@@ -12645,7 +12645,7 @@ body .search-modal .close:hover {
 }
 
 .dance {
-    -webkit-animation: dance 2s alternate infinite;
+    -webkit-animation: dance 5s alternate infinite;
 }
 
 @keyframes dance {
@@ -12658,7 +12658,7 @@ body .search-modal .close:hover {
 }
 
 .dance2 {
-    -webkit-animation: dance2 4s alternate infinite;
+    -webkit-animation: dance2 7s alternate infinite;
 }
 
 @keyframes dance2 {
@@ -12932,7 +12932,7 @@ body .search-modal .close:hover {
     animation-name: fadeInRight;
 }
 
-@keyframes {
+/* @keyframes {
     0% {
         opacity: 0;
         transform: translate3d(100%, 0, 0);
@@ -12941,4 +12941,4 @@ body .search-modal .close:hover {
         opacity: 1;
         transform: none;
     }
-}
+} */
