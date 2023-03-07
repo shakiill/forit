@@ -801,7 +801,7 @@
         -webkit-animation: unset;
     }
     .rs-banner.main-home {
-        min-height: 1200px;
+        min-height: 100vh;
     }
     .rs-banner.main-home .content-wrap {
          padding-top: unset;
