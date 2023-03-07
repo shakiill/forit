@@ -1065,14 +1065,14 @@ blockquote cite:before {
 }
 
 .readon.learn-more.submit {
-    background-image: linear-gradient(90deg, #03228f 0%, #4e95ed 100%);
+    background-image: linear-gradient(90deg, #eeb609 19%, #d19931 100%);
     padding: 16px 40px 16px 40px;
     font-weight: 500;
     font-size: 16px;
 }
 
 .readon.learn-more.submit:hover {
-    background-image: linear-gradient(200deg, #03228f 0%, #4e95ed 100%);
+    background-image: linear-gradient(250deg, #eeb609 0%, #d19931 100%);
     color: #ffffff;
 }
 
@@ -1189,18 +1189,18 @@ blockquote cite:before {
 
 .readon.lets-talk {
     padding: 14px 40px 14px 40px;
-    background-image: linear-gradient(250deg, #4e95ed 19%, #03228f 100%);
+    background-image: linear-gradient(250deg, #d19931 19%, #eeb609 100%);
     border-radius: 30px 30px 30px 30px;
 }
 
 .readon.lets-talk:hover {
-    background-image: linear-gradient(180deg, #03228f 19%, #4e95ed 100%);
+    background-image: linear-gradient(180deg, #eeb609 19%, #d19931 100%);
     color: #ffffff;
 }
 
 .readon.buy-now {
     padding: 10px 40px 10px 40px;
-    background-image: linear-gradient(170deg, #03228f 0%, #4e95ed 100%);
+    background-image: linear-gradient(250deg, #eeb609 19%, #d19931 100%);
     border-radius: 30px 30px 30px 30px;
     text-transform: uppercase;
     position: relative;
@@ -1208,7 +1208,7 @@ blockquote cite:before {
 }
 
 .readon.buy-now:hover {
-    background-image: linear-gradient(360deg, #03228f 0%, #4e95ed 100%);
+    background-image: linear-gradient(180deg, #d19931 19%, #eeb609 100%);
     color: #ffffff;
 }
 
@@ -1480,7 +1480,7 @@ blockquote cite:before {
 }
 
 .blog-button a:hover {
-    color: #106eea;
+    color: #fcb229;
 }
 
 .blog-button a:hover:after {
@@ -1748,7 +1748,7 @@ blockquote cite:before {
     height: 70px;
     border-radius: 50%;
     animation: pulse-border 1500ms ease-out infinite;
-    background: #ffffff;
+    background: #fcb229;
 }
 
 .tab-videos .popup-videos {
@@ -1973,7 +1973,7 @@ blockquote cite:before {
     border: 0;
     height: 4px;
     width: 50px;
-    background-color: #03228F;
+    background-color: #fcb229;
     z-index: 1;
     margin-left: 0;
     left: 24px;
@@ -1987,7 +1987,7 @@ blockquote cite:before {
     top: 12px;
     height: 4px;
     width: 12px;
-    background-color: #03228F;
+    background-color: #fcb229;
 }
 
 .sec-title .sub-text.new {
@@ -2193,7 +2193,7 @@ blockquote cite:before {
 
 .sec-title2 .heading-line {
     position: relative;
-    background-color: #03228F;
+    background-color: #d7ac5d;
     height: 5px;
     width: 90px;
     border-radius: 30px;
@@ -2201,7 +2201,7 @@ blockquote cite:before {
 }
 
 .sec-title2 .heading-line:before {
-    background-color: #1940AA;
+    background-color: #fcb229;
     content: '';
     position: absolute;
     left: 0;
@@ -2716,7 +2716,7 @@ blockquote cite:before {
 }
 
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a:hover {
-    color: #FFBF00;
+    color: #fdd766;
 }
 
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li.menu-item-has-children > a {
@@ -5298,7 +5298,7 @@ body .search-modal .close:hover {
 }
 
 .rs-counter .counter-top-area .counter-list .counter-text .count-number .rs-count {
-    color: #03228F;
+    color: #fcb229;
     font-size: 48px;
     font-weight: 900;
     position: relative;
@@ -5672,7 +5672,7 @@ body .search-modal .close:hover {
 }
 
 .rs-contact .contact-box {
-    background-image: linear-gradient(250deg, #4e95ed 0%, #03228f 100%);
+    background-image: linear-gradient(250deg, #eeb609 0%, #d19931 100%);
     padding: 80px 30px 80px 30px;
     border-radius: 5px 5px 5px 5px;
 }
@@ -5906,7 +5906,7 @@ body .search-modal .close:hover {
     height: 7px;
     line-height: 7px;
     background-color: transparent;
-    background-image: linear-gradient(190deg, #105aad 0%, #4e95ed 100%);
+    background-image: linear-gradient(190deg, #fcb229 0%, #e77602 100%);
     background-size: 1rem 1rem;
 }
 
@@ -6340,14 +6340,14 @@ body .search-modal .close:hover {
     border-radius: 30px;
     border: none;
     transition: all 0.3s ease;
-    background: #0B70E1;
+    background: #d19931;
     box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.25);
 }
 
 .rs-team .owl-dots .owl-dot:hover,
 .rs-team .owl-dots .owl-dot.active {
     width: 40px;
-    background: #0B70E1;
+    background: #fcb229;
     opacity: 1;
 }
 
@@ -7876,7 +7876,7 @@ body .search-modal .close:hover {
     font-size: 50px;
     font-weight: 700;
     line-height: 1.4;
-    color: #03228f;
+    color: #fcb229;
 }
 
 .rs-process .rs-addon-number .number-text .number-title .title {
@@ -8445,6 +8445,9 @@ body .search-modal .close:hover {
     z-index: 10;
     text-align: center;
 }
+.rs-project.style1 .project-item .project-content:hover{
+    background: #fcb229;
+}
 
 .rs-project.style1 .project-item .project-content .title {
     font-size: 24px;
@@ -8452,11 +8455,9 @@ body .search-modal .close:hover {
     font-weight: 600;
     margin-bottom: 8px;
 }
-
 .rs-project.style1 .project-item .project-content .title a {
     color: #101010;
 }
-
 .rs-project.style1 .project-item .project-content .category {
     font-size: 16px;
     line-height: 26px;
@@ -8486,9 +8487,9 @@ body .search-modal .close:hover {
     height: 42px;
     line-height: 42px;
     border-radius: 50%;
-    background: #ffffff;
+    background: #fcb229;
     text-align: center;
-    color: #101010;
+    color: #fff;
     transition: all 0.5s;
     transition-delay: 0.70s;
     opacity: 0;
@@ -10509,14 +10510,14 @@ body .search-modal .close:hover {
     border-radius: 30px;
     border: none;
     transition: all 0.3s ease;
-    background: #0B70E1;
+    background: #d7ac5d;
     box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.25);
 }
 
 .rs-testimonial.main-home .owl-dots .owl-dot:hover,
 .rs-testimonial.main-home .owl-dots .owl-dot.active {
     width: 40px;
-    background: #0B70E1;
+    background: #fcb229;
     opacity: 1;
 }
 
@@ -12043,7 +12044,7 @@ body .search-modal .close:hover {
 
 .rs-footer .footer-top .footer-social li a:hover {
     color: #ffffff;
-    background: #106eea;
+    background: #fcb229;
 }
 
 .rs-footer .footer-top .footer-social li:last-child {
@@ -12100,7 +12101,7 @@ body .search-modal .close:hover {
     top: 1px;
     right: 1px;
     bottom: 1px;
-    background-image: linear-gradient(90deg, #03228f 0%, #0e73e4 100%);
+    background-image: linear-gradient(250deg, #eeb609 19%, #d19931 100%);
     border-radius: 50%;
     padding: 15px 28px 15px;
     font-family: "Flaticon";
@@ -12174,7 +12175,7 @@ body .search-modal .close:hover {
 }
 
 .rs-footer .footer-bottom .copy-right-menu li a:hover {
-    color: #106eea;
+    color: #fcb229;
 }
 
 .rs-footer .footer-bottom .copy-right-menu li:before {
@@ -12182,7 +12183,7 @@ body .search-modal .close:hover {
     content: "";
     position: absolute;
     font-size: 18px;
-    background: #106eea;
+    background: #fcb229;
     left: 0;
     top: 50%;
     width: 6px;
@@ -12631,7 +12632,7 @@ body .search-modal .close:hover {
 }
 
 .dance3 {
-    -webkit-animation: dance3 8s alternate infinite;
+    -webkit-animation: dance3 9s alternate infinite;
 }
 
 @keyframes dance3 {
@@ -12644,7 +12645,7 @@ body .search-modal .close:hover {
 }
 
 .dance {
-    -webkit-animation: dance 2s alternate infinite;
+    -webkit-animation: dance 5s alternate infinite;
 }
 
 @keyframes dance {
@@ -12657,7 +12658,7 @@ body .search-modal .close:hover {
 }
 
 .dance2 {
-    -webkit-animation: dance2 4s alternate infinite;
+    -webkit-animation: dance2 7s alternate infinite;
 }
 
 @keyframes dance2 {
@@ -12931,7 +12932,7 @@ body .search-modal .close:hover {
     animation-name: fadeInRight;
 }
 
-@keyframes {
+/* @keyframes {
     0% {
         opacity: 0;
         transform: translate3d(100%, 0, 0);
@@ -12940,4 +12941,4 @@ body .search-modal .close:hover {
         opacity: 1;
         transform: none;
     }
-}
+} */
