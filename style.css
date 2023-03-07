@@ -1053,14 +1053,14 @@ blockquote cite:before {
 }
 
 .readon.learn-more.sub-con {
-    background-image: linear-gradient(250deg, #4e95ed 0%, #03228f 100%);
+    background-image: linear-gradient(180deg, #eeb609 0%, #d19931 100%);
     padding: 18px 36px 16px 36px;
     font-size: 14px;
     font-weight: 500;
 }
 
 .readon.learn-more.sub-con:hover {
-    background-image: linear-gradient(250deg, #03228f 0%, #4e95ed 100%);
+    background-image: linear-gradient(180deg, #d19931 0%, #eeb609 100%);
     color: #ffffff;
 }
 
@@ -1189,12 +1189,12 @@ blockquote cite:before {
 
 .readon.lets-talk {
     padding: 14px 40px 14px 40px;
-    background-image: linear-gradient(250deg, #4e95ed 19%, #03228f 100%);
+    background-image: linear-gradient(180deg, #eeb609 19%, #d19931 100%);
     border-radius: 30px 30px 30px 30px;
 }
 
 .readon.lets-talk:hover {
-    background-image: linear-gradient(180deg, #03228f 19%, #4e95ed 100%);
+    background-image: linear-gradient(180deg, #d19931 19%, #eeb609 100%);
     color: #ffffff;
 }
 
