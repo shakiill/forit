@@ -1480,7 +1480,7 @@ blockquote cite:before {
 }
 
 .blog-button a:hover {
-    color: #106eea;
+    color: #fcb229;
 }
 
 .blog-button a:hover:after {
@@ -8445,6 +8445,9 @@ body .search-modal .close:hover {
     z-index: 10;
     text-align: center;
 }
+.rs-project.style1 .project-item .project-content:hover{
+    background: #fcb229;
+}
 
 .rs-project.style1 .project-item .project-content .title {
     font-size: 24px;
@@ -8452,11 +8455,9 @@ body .search-modal .close:hover {
     font-weight: 600;
     margin-bottom: 8px;
 }
-
 .rs-project.style1 .project-item .project-content .title a {
     color: #101010;
 }
-
 .rs-project.style1 .project-item .project-content .category {
     font-size: 16px;
     line-height: 26px;
@@ -12174,7 +12175,7 @@ body .search-modal .close:hover {
 }
 
 .rs-footer .footer-bottom .copy-right-menu li a:hover {
-    color: #106eea;
+    color: #fcb229;
 }
 
 .rs-footer .footer-bottom .copy-right-menu li:before {
@@ -12182,7 +12183,7 @@ body .search-modal .close:hover {
     content: "";
     position: absolute;
     font-size: 18px;
-    background: #106eea;
+    background: #fcb229;
     left: 0;
     top: 50%;
     width: 6px;
