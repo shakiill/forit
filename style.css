@@ -8443,12 +8443,40 @@ body .search-modal .close:hover {
     justify-content: center;
     margin: 15px 15px;
     border-radius: 10px;
-    border: 1px green solid;
     display: flex;
     transition: .5s;
+    position: relative;
+    overflow: hidden;
+}
+.clients-container .clients-box::before{
+    content: "";
+    position: absolute;
+    top: -50%;
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(#fcb229, #d400d4);
+    animation: box-ff 5s linear infinite;
+}
+.clients-container .clients-box::after{
+    content: "";
+    position: absolute;
+    inset: 1px;
+    background: #fff;
+    border-radius: 10px;
+}
+@keyframes box-ff{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 .clients-container .clients-box:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.4);
+}
+.clients-container .clients-box .services-item{
+    z-index: 2;
 }
 .clients-container .clients-box .clients-icons{
     display: flex;
