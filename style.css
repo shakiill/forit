@@ -8455,7 +8455,10 @@ body .search-modal .close:hover {
 }
 .clients-container .clients-box .clients-icons .clients-image{
     margin: auto; 
-    padding: 20px 0;
+    max-width: 128px;
+    max-height: 128px;
+    padding-top: 10px;
+    margin-bottom: 30px;
 }
 .clients-container .clients-box .clients-name{
     font-size: 18px; 
