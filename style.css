@@ -8427,6 +8427,49 @@ body .search-modal .close:hover {
 /*------------------------------------
     22. Project Section CSS
 ------------------------------------*/
+
+/*----------------------------------
+           Rayhan CSS
+------------------------------- */
+
+.clients-container{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    padding-bottom: 40px;
+}
+.clients-container .clients-box{
+    background: #fff;
+    justify-content: center;
+    margin: 15px 15px;
+    border-radius: 10px;
+    border: 1px green solid;
+    display: flex;
+    transition: .5s;
+}
+.clients-container .clients-box:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.4);
+}
+.clients-container .clients-box .clients-icons{
+    display: flex;
+}
+.clients-container .clients-box .clients-icons .clients-image{
+    margin: auto; 
+    padding: 20px 0;
+}
+.clients-container .clients-box .clients-name{
+    font-size: 18px; 
+    margin-bottom: 0; 
+    text-align: center;
+}
+.clients-container .clients-box .clients-name a{
+    color: #fcb229;
+}
+
+/*----------------------------------
+           Rayhan CSS End
+------------------------------- */
+
 .rs-project.style1 .owl-stage-outer {
     padding-bottom: 70px;
 }
