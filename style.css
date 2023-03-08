@@ -5675,6 +5675,11 @@ body .search-modal .close:hover {
     background-image: linear-gradient(250deg, #eeb609 0%, #d19931 100%);
     padding: 80px 30px 80px 30px;
     border-radius: 5px 5px 5px 5px;
+    transition: .5s;
+}
+
+.rs-contact .contact-box:hover{
+    background-image: linear-gradient(180deg, #d19931 0%, #eeb609 100%);
 }
 
 .rs-contact .contact-box .address-box {
@@ -6809,8 +6814,11 @@ body .search-modal .close:hover {
     padding: 60px 25px 50px 35px;
     background-color: #FFFFFF;
     border-radius: 10px 10px 10px 10px;
+    transition: .5s;
 }
-
+.rs-services.main-home .services-item:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.4);
+}
 .rs-services.main-home .services-item .services-icon {
     margin-bottom: 30px;
 }
@@ -6820,6 +6828,14 @@ body .search-modal .close:hover {
     height: 80px;
 }
 
+.services-logo-text {
+    position: absolute;
+    margin-top: -52px;
+    margin-left: 120px;
+}
+.services-logo-text a{
+    color: #fcb229;
+}
 .rs-services.main-home .services-item .services-content .services-text .services-title {
     font-size: 22px;
     font-weight: 600;
