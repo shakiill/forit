@@ -2105,7 +2105,8 @@ blockquote cite:before {
 }
 
 .sec-title2 .sub-text.white-color {
-    color: #ffffff;
+    color: #fcb229 !important;
+    font-weight: 600;
 }
 
 .sec-title2 .sub-text.gold-color {
@@ -2146,9 +2147,8 @@ blockquote cite:before {
     max-width: 490px;
     margin: 0 auto;
 }
-
-.sec-title2 .title.white-color {
-    color: #ffffff;
+.title.white-color {
+    color: #fff !important;
 }
 
 .sec-title2 .title.testi-title {
