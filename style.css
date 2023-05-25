@@ -13032,3 +13032,256 @@ body .search-modal .close:hover {
         transform: none;
     }
 } */
+
+
+
+
+
+
+    /* ======================================  
+        Coding By Rayhan This is My Coding 
+    =======================================*/
+
+
+
+/*======= Slider Section CSS Coding =======*/
+.slider-wapper .carousel-indicators button{
+    background-color: #00005B;
+}
+.slider-container{
+    background: #dbdbdb;
+}
+.slider-container .container .row .content{
+    padding-left: 4rem;
+    padding-top: 5rem;
+}
+.slider-container .container .row .content .title-name{
+    color: #000060;
+    font-size: 16px;
+    font-weight: 600;
+    background: none;
+    outline: none;
+    border: none;
+    position: relative;
+    margin-bottom: 20px;
+}
+.slider-container .container .row .content .title-name::after{
+    content:'' ;
+    width: 16%;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    position: absolute;
+    left: 0px;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.slider-container .container .row .content h3{
+    font-size: 30px;
+    color: #000060;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.slider-container .container .row .content h4{
+    font-size: 30px;
+    color: #000060;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.slider-container .container .row .content p{
+    font-size: 15px;
+    color: #000060;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.slider-container .container .row .content .content-btn .btn{
+    margin-right: 10px;
+    background: linear-gradient(250deg, #d19931 19%, #eeb609 100%);
+    border-radius: 25px;
+    color: #fff;
+    transition: .5s;
+}
+.slider-container .container .row .content .content-btn .btn:hover{
+    background: linear-gradient(180deg, #eeb609 19%, #d19931 100%);
+    border-radius: 25px;
+    color: #fff;
+}
+.slider-container .container .row .image img{
+    padding: 3.2rem;
+}
+
+
+
+/*======= Divece Price Section CSS Coding =======*/
+
+.device-price{
+    margin-bottom: 60px;
+}
+.device-price .container h2{
+    text-align: center;
+    margin: 40px 0;
+}
+.device-price .container .content{
+    justify-content: center;
+}
+.device-price .container .content .price-box{
+    max-width: 290px;
+    min-width: 290px;
+    background: #fff;
+    box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
+    padding: 0;
+    margin: 10px 10px;
+}
+.device-price .container .content .price-box .image{
+    overflow: hidden;
+}
+.device-price .container .content .price-box .image img{
+    width: 100%;
+    transform: scale(1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    position: relative;
+}
+.device-price .container .content .price-box .image img:hover{
+    transform: scale(1.3);
+}
+.device-price .container .content .price-box .text-content{
+    transition: .5s;
+}
+.device-price .container .content .price-box .text-content:hover{
+    background: rgba(0, 0, 0, 0.1);
+}
+.device-price .container .content .price-box .text-content .time-box{
+    justify-content: space-between;
+    padding: 10px 30px;
+    color: #03DEA8;
+}
+.device-price .container .content .price-box .text-content .time-box h3{
+    font-size: 25px;
+    padding: 5px 0;
+    margin-bottom: 0;
+    color: #fcb229;
+    transform: scale(1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.device-price .container .content .price-box .text-content .time-box h3:hover{
+    transform: scale(1.1);
+    padding-left: 10px;
+}
+.device-price .container .content .price-box .text-content .time-box li{
+    color: #00005B;
+    font-weight: 500;
+}
+.device-price .container .content .price-box .device-name h4{
+    font-size: 16px;
+    padding: 5px 20px;
+    margin-bottom: 0;
+}
+.device-price .container .content .price-box .device-name p{
+    padding-left: 20px;
+    font-size: 18px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    font-weight: 700;
+    color: #00005B;
+}
+.device-price .container .content .price-box .device-name .btn{
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 0;
+    width: 100px;
+    height: 35px;
+    background-color: #000060;
+    color: #fff;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: .5s;
+}
+.device-price .container .content .price-box .device-name .btn:hover{
+    background-color: #0024ba;
+}
+
+
+/*======= Dropdown Link CSS =======*/
+.dropdown-menu{
+    background: #fff;
+    width: 180px !important;
+}
+.dropdown-menu li{
+    background: #fFF;
+    width: 180px;
+    height: 50px !important;
+    overflow: hidden;
+    margin-bottom: -10px !important;
+}
+.dropdown-menu li .dropdown-item{
+    color: #000 !important;
+    padding-left: 15px !important;
+    width: 180px;
+    font-size: 14px !important;
+    margin-top: -10px !important;
+    border: none !important;
+}
+.dropdown-menu li .dropdown-item:hover{
+    color: #0024ba !important;
+}
+
+
+
+
+
+/* 
+
+.device-service .container{
+    padding: 3rem 0;
+}
+.device-service .container h2{
+    font-size: 35px;
+    text-align: center ;
+}
+.device-service .container h2 span{
+    color: #fcb229;
+}
+.device-service .container .content{
+    justify-content: center;
+}
+.device-box{
+    max-width: 290px;
+    min-width: 250px;
+    background: #fff;
+    box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.device-box img{
+    max-width: 64px;
+    margin: 30px;
+}
+.device-box h3{
+    padding: 0 30px;
+    color: #000;
+    font-size: 20px;
+    background: none;
+    outline: none;
+    border: none;
+    position: relative;
+}
+.device-box h3::after{
+    content:'' ;
+    width: 20%;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    position: absolute;
+    left: 30px;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.device-box p{
+    padding: 0 30px;
+    padding-bottom: 30px;
+    line-height: 20px;
+    padding-bottom: 0;
+} */
+
+
+
