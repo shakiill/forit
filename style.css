@@ -13171,6 +13171,7 @@ body .search-modal .close:hover {
 .device-price .container .content .price-box .text-content .time-box li{
     color: #00005B;
     font-weight: 500;
+    font-size: 14px;
 }
 .device-price .container .content .price-box .device-name h4{
     font-size: 16px;
