@@ -499,7 +499,6 @@
         margin-left: 0!important;
         margin-right: 0!important;
     }
-   	
 	.nav-menu > li > a {
 		border-bottom:1px solid #131313;
 		text-align: left;
@@ -507,11 +506,24 @@
 	.nav-menu > li:last-child a {
     	border-bottom:none;
 	}
-
+	.rs-menu ul{
+		position: relative;
+	}
+	.rs-menu ul li:hover > ul{
+		display: block;
+	}
 	.rs-menu ul ul {
 	    display: none;
+		margin-left: 100px;
+		background: transparent;
+		top: 0px;
+		position: absolute;
+		max-height: 30px !important;
 	}
-
+	.rs-menu ul ul li{
+		padding-top: 10px !important;
+	}
+	
 	/*Options Menu Closed*/
 	.nav-menu div.sub-menu-close {
 		float:left;
